@@ -15,11 +15,9 @@ body{
 }
 /*NAV*/
 
-.nav-bar{
 
-}
 
-.nav-bar ul {
+.nav_bar ul{
     list-style-type: none;
     margin: 0 ;
     padding: 0;
@@ -33,14 +31,14 @@ body{
 
 }
 
-.nav-bar ul	li {
+.nav_bar ul	li {
     float: left; 
     width: 24%;
     min-width: 70px;
     box-sizing: border-box;
 }
 
-.nav-bar  li a {
+.nav_bar  li a {
     display: block;
     color: white;
     padding: 14px 0;
@@ -50,11 +48,11 @@ body{
      box-sizing: border-box;
 
 }
-.nav-bar li a.active{
+.nav_bar li a.active{
 	background-color: rgb(0, 204, 102) ;
 	color: black;
 } 
-.nav-bar li a:hover:not(.active){
+.nav_bar li a:hover:not(.active){
 		background-color:rgba(0, 179, 89,0.9) ;
 		transition: all 2s;
 }
@@ -142,33 +140,30 @@ width: 100%;
 height: 200px;
 border-radius: 3px;
 }
-.article_home_content div.article_footer{
-background-color:  rgb(0, 179, 89) ;
-width: 50%;
-margin: 10px auto;
+
+
+.article_footer{
+background-color: rgb(0, 179, 89);
 border-radius: 5px;
 cursor: pointer;
 min-width: 320px;
+margin-top:20px; 
 }
-
-div.article_footer{
-background-color:rgb(0, 179, 89) ;
+.article_footer div{
 font-weight: bold;
 font-size: 50px;
 color: white;
 text-align: center;
-border-radius: 5px;
-cursor: pointer;
 transition: transform 1s;
 }
-.article_footer .hover-x{ 
+.hover_x{ 
 transform: rotate(45deg);
 }
 .voir_plus{
 display: none;
 }
 
-.voir_plus .hover_voir_plus{
+.hover_voir_plus{
 display: block;
 }
 
@@ -228,6 +223,10 @@ font-style: italic;
 	display: block;
 	width: 100%;
 	min-width: 320px;
+}
+
+#footer_home h2{
+text-align: center;
 }
 
 }
