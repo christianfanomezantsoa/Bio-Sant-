@@ -28,7 +28,7 @@ body{
     width: 100%;
     min-width: 320px;
     box-sizing: border-box;
-
+z-index: 3;
 }
 
 .nav_bar ul	li {
@@ -106,7 +106,7 @@ border-bottom:5px solid white;
 	font-style: italic;
 }
 article.article_home{
-	padding:40px 0 10px 0; 
+	padding:40px 0 0 0; 
 	margin: 0;
 	background-color:rgba(0, 179, 89,0.2);
 	width: 100%;
@@ -175,7 +175,6 @@ background-color:  rgb(0, 153, 77);
 
 footer#footer_home{
 	background-color: rgba(0, 204, 102,0.4);
-	height: 500px;
 	padding: 20px 10px;
 }
 
@@ -204,7 +203,9 @@ color: white;
 font-style: italic;	
 }
 
-
+#presentation2{
+	background:  rgba(38, 38, 38,0.4);
+}
 
 
 
